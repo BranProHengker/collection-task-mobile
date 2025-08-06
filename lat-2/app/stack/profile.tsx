@@ -23,9 +23,9 @@ const ProfilePage = () => {
           </TouchableOpacity>
         </View>
         
-        <Image source={require("@/assets/images/profile.jpg")} style={styles.avatar} />
+        <Image source={require("@/assets/images/profile1.jpg")} style={styles.avatar} />
         <Text style={styles.name}>Avattar</Text>
-        <Text style={styles.role}>Junior Graphic Designer</Text>
+        <Text style={styles.role}>Junior Front-End Developer And UI/UX Designer</Text>
         
         <View style={styles.followContainer}>
           <View style={styles.followBox}>

@@ -11,10 +11,10 @@ const RootLayout = () => {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Index",
-          tabBarLabel: "Home",
+          title: "Login",
+          tabBarLabel: "Login",
           tabBarIcon: ({ color }) => (
-            <AntDesign name="home" size={24} color={color} />
+            <AntDesign name="login" size={24} color={color} />
           ),
         }}
       />
